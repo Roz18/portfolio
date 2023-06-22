@@ -1,10 +1,36 @@
 body {
-  background: #0a0a1c;
+  background: #0c0f31;
+}
+.nav {
+  font-size: 20px;
+  font-family: Poppins;
+  background-color: #0c0c2b;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.nav-link.active {
+  color: #fff;
+  text-decoration: underline;
 }
 
 .HeadingContainer {
   width: 70%;
   margin: auto;
+  margin-top: 40px;
   padding: 23px;
   display: block;
   justify-content: center;
@@ -12,7 +38,7 @@ body {
 
 h1 {
   padding: 10px;
-  font-weight: Bold;
+  font-weight: bolder;
   font-size: 39px;
   background: -webkit-linear-gradient(
     90deg,
@@ -37,11 +63,48 @@ p {
   font-family: Poppins;
   font-weight: Medium;
   font-size: 24px;
-
   text-align: center;
+}
+.name {
+  font-weight: bold;
+  font: size 40px;
+
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(162, 11, 217, 1) 32%,
+    rgba(17, 2, 241, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .landingImg {
   margin: auto;
   display: flex;
   justify-content: center;
+}
+
+#projectContainer {
+  position: relative;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.card-body {
+  position: relative;
+  color: #fff;
+}
+
+.card-text {
+  position: absolute;
+  text-align: center;
+  background: linear-gradient(
+    181.15deg,
+    #ffffff -6.05%,
+    #863ca4 -6.05%,
+    #263984 100.37%
+  );
+  border-radius: 38px;
 }
