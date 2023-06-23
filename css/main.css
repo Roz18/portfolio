@@ -27,7 +27,7 @@ body {
   text-decoration: underline;
 }
 
-.HeadingContainer {
+#HeadingContainer {
   width: 70%;
   margin: auto;
   margin-top: 40px;
@@ -83,21 +83,23 @@ h2 {
   background: linear-gradient(rgba(102, 117, 255, 1), rgba(163, 61, 174, 1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 35px;
+
   font-family: Montserrat;
   font-weight: 700;
 }
 h3 {
+  padding-top: 5px;
   color: #fff;
-  font-size: 38px;
+
   font-family: Montserrat;
   font-weight: 700;
 }
 h4 {
   color: #fff;
-  font-size: 20px;
+  font-size: 19px;
   font-family: Montserrat;
   font-weight: 500;
+  padding: 5px 6px 5px;
 }
 #projectContainer {
   position: relative;
@@ -130,10 +132,8 @@ h4 {
   display: flex;
   justify-content: space-evenly;
 }
-#buttoncontainer {
-  padding: 0px 80px 0px;
-}
-.projectButton {
+
+#projectButton {
   width: 210px;
   height: 53px;
   background: linear-gradient(117deg, #863ca4 0%, #263984 100%);
@@ -142,9 +142,14 @@ h4 {
   font-family: Poppins;
   font-size: 20px;
   color: white;
+
+  margin-top: 25px;
 }
 .container {
-  margin-top: 200px;
+  margin-top: 300px;
+}
+.contact-container {
+  margin-top: 70px;
 }
 h5 {
   color: #fff;
@@ -174,6 +179,10 @@ p {
   display: flex;
   justify-content: flex-end;
 }
+.form-control::placeholder {
+  color: #ffffff;
+  opacity: 0.7;
+}
 #buttonEmail {
   margin: auto;
   background: linear-gradient(117deg, #863ca4 0%, #263984 100%);
@@ -185,4 +194,7 @@ p {
   width: 100px;
   height: 43px;
   padding: 8px 24px 8px;
+}
+#imgletter {
+  margin: 2px;
 }
