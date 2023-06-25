@@ -21,18 +21,18 @@
     <title>Porfolio Lnading page</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark fixed-top d-md-none">
+    <nav class="navbar navbar-custom  fixed-top d-md-none"  >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Home</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler custom-toggler"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon "></span>
         </button>
         <div
           class="offcanvas offcanvas-end"
@@ -40,19 +40,11 @@
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
+         
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link.active" style="color: white;" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Link</a>
@@ -68,17 +60,6 @@
               </li>
             </ul>
 
-            <form class="d-flex mt-3" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </div>
@@ -112,13 +93,8 @@
       <img
         src="/images/landingpagepic.png"
         alt="Landing Page Picture"
-        style="
-          width: 500px;
-          height: 489px;
-          padding: 30px 30px 30px;
-          justify-content: center;
-        "
-        class="d-none d-md-block"
+       
+       
       />
     </div>
     <div class="container-fluid" id="HeadingContainer">
@@ -193,19 +169,19 @@
         <div class="w-100 d-flex justify-content-center">
           <div class="col-4 d-flex justify-content-center" id="buttoncontainer">
             <button id="projectButton" type="submit" class="btn btn-primary">
-              Journe Deeper
+              Journey Deeper
             </button>
           </div>
 
           <div class="col-4 d-flex justify-content-center" id="buttoncontainer">
             <button id="projectButton" type="submit" class="btn btn-primary">
-              Journe Deeper
+              Journey Deeper
             </button>
           </div>
 
           <div class="col-4 d-flex justify-content-center" id="buttoncontainer">
             <button id="projectButton" type="submit" class="btn btn-primary">
-              Journe Deeper
+              Journey Deeper
             </button>
           </div>
         </div>
@@ -214,38 +190,44 @@
 
     <div class="slider-wrapper">
       <div class="slider-container d-lg-none">
-        <div class="slider">
+        <div class="slider" style="margin-bottom:10px">
           <div class="slide">
             <div class="card">
-              <h3 class="card-title">Card 1</h3>
+              <h3 class="card-title">Just a Booking</h3>
               <p class="card-description">
-                This is the description for card 1.
+                A speculative design case study which I have done through the UX
+                Design Institute as a part of my UX Design Diploma. The goal is
+                to design a website booking site for hotels.
               </p>
-              <a href="#" class="card-link">Learn More</a>
+              <a href="#" class="card-link">Journey Deeper</a>
             </div>
           </div>
           <div class="slide">
             <div class="card">
-              <h3 class="card-title">Card 2</h3>
+              <h3 class="card-title">CodeQuest</h3>
               <p class="card-description">
-                This is the description for card 2.
+                Get ready to witness a mesmerizing display of my coding
+                  prowess as I present a dazzling array of projects that
+                  showcase my skills honed through SheCodes!
               </p>
-              <a href="#" class="card-link">Learn More</a>
+              <a href="#" class="card-link">Journey Deeper</a>
             </div>
           </div>
           <div class="slide">
             <div class="card">
-              <h3 class="card-title">Card 3</h3>
+              <h3 class="card-title">Whimsical Works</h3>
               <p class="card-description">
-                This is the description for card 3.
+                Get ready to be inspired, captivated, and entertained as we
+                  embark on this unforgettable journey through my portfolio.
+                </h4>.
               </p>
-              <a href="#" class="card-link">Learn More</a>
+              <a href="#" class="card-link">Journey Deeper</a>
             </div>
           </div>
         </div>
 
         <div class="navigation">
-          <button class="prev-button">Prev</button>
+          <button class="prev-button" >Prev</button>
           <button class="next-button">Next</button>
         </div>
       </div>

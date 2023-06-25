@@ -1,5 +1,38 @@
 body {
   background: #0c0f31;
+  min-width: 100%;
+}
+
+.navbar-custom {
+  background-color: #06092b;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+}
+.navbar-brand {
+  font-size: 20px;
+  font-family: Poppins;
+  margin: 15px 15px 16px;
+  padding: 10px;
+}
+.offcanvas-header {
+  background-color: #0b1048;
+}
+.offcanvas-body {
+  background-color: rgb(12, 15, 49);
+  font-size: 20px;
+  font-family: Poppins;
+}
+.navbar-toggler {
+  background-color: #06092b;
 }
 .nav {
   font-size: 20px;
@@ -10,6 +43,7 @@ body {
 }
 
 .nav-item {
+  color: #ffffff;
   display: inline-block;
   margin: 10px;
   padding: 10px;
@@ -24,9 +58,14 @@ body {
 
 .nav-link.active {
   color: #fff;
-  text-decoration: underline;
 }
-
+.landingImg {
+  margin-top: 50px;
+  width: 500px;
+  height: 489px;
+  padding: 30px 30px 30px;
+  justify-content: center;
+}
 #HeadingContainer {
   width: 70%;
   margin: auto;
@@ -191,7 +230,7 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 40vh;
 }
 .slider-container {
   position: relative;
@@ -210,25 +249,35 @@ h5 {
 }
 
 .card {
-  background-color: #f5f5f5;
+  background-color: #0c1336;
   padding: 20px;
   margin: 10px;
   text-align: center;
-  height: 200px; /* Set the desired height for the cards */
+  height: 220px;
   transform: translateX(0);
   transition: transform 0.3s ease;
 }
 
 .card-title {
+  color: #fff;
+  background: linear-gradient(rgba(102, 117, 255, 1), rgba(163, 61, 174, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Montserrat;
+  font-weight: 700;
   margin: 0;
 }
 
 .card-description {
   margin: 10px 0;
+  padding-top: 5px;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 700;
 }
 
 .card-link {
-  color: blue;
+  color: #863ca4;
   text-decoration: underline;
 }
 
@@ -240,16 +289,24 @@ h5 {
 .prev-button,
 .next-button {
   padding: 10px;
-  background-color: #ccc;
+
   border: none;
   cursor: pointer;
+  background: linear-gradient(117deg, #863ca4 0%, #263984 100%);
+  border: none;
+  font-family: Poppins;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #fff;
 }
 
 .prev-button {
+  margin-top: 10px;
   margin-right: 10px;
 }
 
 .next-button {
+  margin-top: 10px;
   margin-left: 10px;
 }
 
@@ -281,7 +338,18 @@ h5 {
 }
 
 @media screen and (max-width: 400px) {
+  .landingImg {
+    margin-top: 100px;
+    width: 150px;
+    height: 122px;
+    padding: 10px 10px 10px;
+    justify-content: center;
+  }
   .form-control::placeholder {
+    font-size: 12px;
+  }
+  .card {
+    height: 700px;
     font-size: 12px;
   }
   #call {
@@ -308,15 +376,36 @@ h5 {
     padding: 5px 16px 5px;
   }
 }
+@media screen and (max-width: 600px) {
+  .card {
+    height: 390px;
+    font-size: 15px;
+  }
+}
 
 @media screen and (max-width: 800px) {
+  .landingImg {
+    margin-top: 100px;
+    width: 250px;
+    height: 244px;
+    padding: 20px 20px 20px;
+    justify-content: center;
+  }
+  .cardcard-description {
+    height: 390px;
+  }
   h1 {
     font-size: 20px;
   }
   .intro {
     font-size: 12px;
   }
-
+  h3 {
+    font-size: 20px;
+  }
+  .card-description {
+    font-size: 15px;
+  }
   h5 {
     font-size: 12px;
     font-weight: light;
