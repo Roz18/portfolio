@@ -1,6 +1,12 @@
 body {
+  margin: 0;
+  padding: 0;
   background: #0c0f31;
   min-width: 100%;
+  background-image: url("/images/homePageArt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .navbar-custom {
@@ -143,7 +149,7 @@ h4 {
 #container-card {
   padding: 20px 120px 20px;
   margin-top: 300px;
-  background-color: #0c0f31;
+
   display: flex;
   justify-content: center;
 }
@@ -230,7 +236,6 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vh;
 }
 .slider-container {
   position: relative;
@@ -253,7 +258,7 @@ h5 {
   padding: 20px;
   margin: 10px;
   text-align: center;
-  height: 220px;
+
   transform: translateX(0);
   transition: transform 0.3s ease;
 }
@@ -368,7 +373,6 @@ h5 {
     font-size: 12px;
   }
   .card {
-    height: 700px;
     font-size: 12px;
   }
   #call {
@@ -395,14 +399,17 @@ h5 {
     padding: 5px 16px 5px;
   }
 }
-@media screen and (max-width: 600px) {
-  .card {
-    height: 390px;
-    font-size: 15px;
-  }
-}
 
 @media screen and (max-width: 800px) {
+  body {
+    background: #0c0f31;
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: url("/images/homePageArtSM.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .landingImg {
     margin-top: 100px;
     width: 250px;
