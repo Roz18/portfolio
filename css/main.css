@@ -336,7 +336,12 @@ h5 {
   height: 43px;
   padding: 8px 24px 8px;
 }
-
+.github {
+  padding: 10px;
+}
+.linkedin {
+  padding: 10px;
+}
 @media screen and (max-width: 400px) {
   .landingImg {
     margin-top: 100px;
@@ -344,6 +349,20 @@ h5 {
     height: 122px;
     padding: 10px 10px 10px;
     justify-content: center;
+  }
+  #HeadingContainer {
+    width: 90%;
+    margin: auto;
+
+    padding: 10px;
+
+    justify-content: center;
+  }
+  .slider-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   .form-control::placeholder {
     font-size: 12px;
@@ -389,6 +408,14 @@ h5 {
     width: 250px;
     height: 244px;
     padding: 20px 20px 20px;
+    justify-content: center;
+  }
+  #HeadingContainer {
+    width: 90%;
+    margin: auto;
+
+    padding: 19px;
+
     justify-content: center;
   }
   .cardcard-description {
@@ -441,6 +468,12 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .github {
+    padding: 15px;
+  }
+  .linkedin {
+    padding: 15px;
   }
 }
 @media screen and (max-width: 1080px) {
