@@ -17,13 +17,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
 
-    <link href="HomePageArt.jsx" />
     <link href="../css/main.css" rel="stylesheet" />
 
     <title>Just Booking</title>
   </head>
   <body>
-    <nav class="navbar navbar-custom fixed-top d-md-none">
+    <nav class="navbar navbar-custom fixed-top d-lg-none">
       <div class="container-fluid">
         <a class="navbar-brand" href="/Pages/Booking.html">Just Booking</a>
         <button
@@ -64,19 +63,37 @@
                 <a class="nav-link" href="/Pages/works.html">Whimsical Works</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">hire me</a>
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  rel="noopener"
+                  target="_blank"
+                  href="#contactbox"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    <ul class="nav d-none d-md-flex justify-content-center">
+
+    <ul class="nav d-none d-lg-flex justify-content-center">
       <li class="nav-item">
         <a class="nav-link" href="/index.html">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/Pages/CodeQuest.html">Code Quest</a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link active"
+          aria-current="page"
+          href="/Pages/Booking.html"
+          >Just Booking</a
+        >
       </li>
       <img
         src="/images/smallpp.png"
@@ -89,21 +106,66 @@
         "
         class="col-md-6 float-md-end mb-3 ms-md-3"
       />
-      <li class="nav-item">
-        <a
-          class="nav-link active"
-          aria-current="page"
-          href="/Pages/Booking.html"
-          >Just Booking</a
-        >
-      </li>
+
       <li class="nav-item">
         <a class="nav-link" href="/Pages/works.html">Whimsical Works</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" rel="noopener" target="_blank" href="#contactbox"
+          >Contact</a
+        >
+      </li>
     </ul>
 
-    <h1>book where?</h1>
-    <!-- code must be placed here.. sorta.. -->
+    <h2>book where?</h2>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="booking-slider">
+      <div class="slider-book">
+        <div
+          class="slider"
+          style="display: flex; width: 500%; transition: transform 0.3s ease"
+        >
+          <div class="slide-Planet">
+            <div class="card-Planet">
+              <h3><a href="#" class="card-link" class="card-title">1</a></h3>
+            </div>
+          </div>
+          <div class="slide-Planet">
+            <div class="card-Planet">
+              <h3><a href="#" class="card-link" class="card-title">2</a></h3>
+            </div>
+          </div>
+          <div class="slide-Planet">
+            <div class="card-Planet">
+              <h3><a href="#" class="card-link" class="card-title">3</a></h3>
+            </div>
+          </div>
+          <div class="slide-Planet">
+            <div class="card-Planet">
+              <h3><a href="#" class="card-link" class="card-title">4</a></h3>
+            </div>
+          </div>
+          <div class="slide-Planet">
+            <div class="card-Planet">
+              <h3><a href="#" class="card-link" class="card-title">5</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navigation-book">
+      <button class="preve-button">Prev</button>
+      <button class="nexts-button">Next</button>
+    </div>
 
     <div class="container-fluid" id="container">
       <div class="row" style="margin: 0">
@@ -180,11 +242,12 @@
         </div>
       </div>
     </div>
+
     <script
       src="https://kit.fontawesome.com/e0ae81558d.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="/js/book.js"></script>
   </body>
 </html>

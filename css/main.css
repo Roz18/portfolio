@@ -11,6 +11,7 @@ body {
 
 .navbar-custom {
   background-color: #06092b;
+  margin-bottom: 10px;
 }
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -41,7 +42,7 @@ body {
   background-color: #06092b;
 }
 .nav {
-  font-size: 20px;
+  font-size: 16px;
   font-family: Poppins;
   background-color: #0c0c2b;
   padding: 10px;
@@ -234,6 +235,65 @@ h5 {
   font-family: Montserrat;
   font-weight: 600;
 }
+
+.slider-book {
+  position: relative;
+  overflow: hidden;
+  width: 40%;
+}
+
+.booking-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 40%;
+}
+
+.slide-Planet {
+  flex: 0 0 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.card-Planet {
+  border-radius: 50px;
+  background-image: url("https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWJzdHJhY3QlMjBwaW5rJTIwJTJDJTIwYmx1ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  transform: translateX(0);
+  transition: transform 0.8s ease;
+  text-align: center;
+}
+.navigation-book {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.preve-button,
+.nexts-button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(117deg, #7f4297 0%, #405195 100%);
+  border: none;
+  font-family: Poppins;
+  font-size: 18px;
+  border-radius: 13px;
+  color: #fff;
+}
+
+.preve-button {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.nexts-button {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
 .slider-wrapper {
   display: flex;
   justify-content: center;
@@ -249,6 +309,7 @@ h5 {
   display: flex;
   width: 300%;
   transition: transform 0.3s ease;
+  justify-content: center;
 }
 
 .slide {
@@ -260,7 +321,6 @@ h5 {
   padding: 20px;
   margin: 10px;
   text-align: center;
-
   transform: translateX(0);
   transition: transform 0.3s ease;
 }
@@ -296,7 +356,6 @@ h5 {
 .prev-button,
 .next-button {
   padding: 10px;
-
   border: none;
   cursor: pointer;
   background: linear-gradient(117deg, #863ca4 0%, #263984 100%);
@@ -427,6 +486,17 @@ h5 {
 
     justify-content: center;
   }
+  .card-Planet {
+    height: 80px;
+    width: 80px;
+  }
+
+  .preve-button,
+  .nexts-button {
+    padding: 7px;
+    font-size: 12px;
+  }
+
   .cardcard-description {
     height: 390px;
   }
@@ -485,6 +555,7 @@ h5 {
     padding: 15px;
   }
 }
+
 @media screen and (max-width: 1080px) {
   h5 {
     font-weight: light;
@@ -516,8 +587,6 @@ h5 {
   .contact-info {
     flex-direction: column-reverse;
   }
-}
-@media screen and (min-width: 1081px) {
   #call {
     float: left;
     margin: 6px;
