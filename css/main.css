@@ -8,6 +8,7 @@ body {
   background-size: cover;
   min-height: 100vh;
 }
+
 h1 {
   font-family: Poppins;
   padding: 10px;
@@ -211,9 +212,8 @@ h6 {
 .name {
   font-weight: bold;
   font: size 40px;
-
   background: linear-gradient(rgba(176, 109, 182, 1), rgba(62, 93, 255, 1));
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .landingImg {
@@ -369,7 +369,7 @@ h6 {
 .card-title {
   color: #fff;
   background: linear-gradient(rgba(102, 117, 255, 1), rgba(163, 61, 174, 1));
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Montserrat;
   font-weight: 700;
@@ -515,6 +515,12 @@ h6 {
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  h4 {
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: light;
   }
 
   .landingImg {
