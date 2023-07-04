@@ -29,7 +29,6 @@ h2 {
   background: linear-gradient(rgba(102, 117, 255, 1), rgba(163, 61, 174, 1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   font-family: Montserrat;
   font-weight: 700;
 }
@@ -67,19 +66,52 @@ h6 {
   display: block;
   text-align: center;
 }
+.stellar {
+  text-align: center;
+  margin: 20px 0px 30px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e8eff5,
+      0 0 40px #f7f5da, 0 0 50px #e8eff5, 0 0 60px #f7f5da, 0 0 70px #e8eff5;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #c7d6fb, 0 0 40px #c7d6fb,
+      0 0 50px #c7d6fb, 0 0 60px #a393fe, 0 0 70px#a393fe, 0 0 80px #a393fe;
+  }
+}
+.backgroundbox {
+  margin: auto;
+  background-color: #0b10487d;
+  padding: 20px;
+  max-width: 72%;
+}
+.Codequets {
+  font-family: Poppins;
+  text-align: center;
+  display: block;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+}
 .flip-card-container {
-  width: 90%;
-  height: 1200px;
+  width: 100%;
   margin: auto;
   display: block;
-  justify-self: center;
 }
 
 .flip-card {
   background-color: transparent;
   width: 400px;
   height: 320px;
-
+  margin: auto;
   perspective: 1000px;
 }
 
@@ -107,11 +139,11 @@ h6 {
 }
 
 .flip-card-front {
-  box-shadow: 0px 0px 46px -17px rgba(255, 241, 174, 0.52);
+  width: 400px;
+  height: 320px;
 }
 
 .flip-card-back {
-  background-color: aliceblue;
   color: white;
   transform: rotateY(180deg);
   border-radius: 15px;
@@ -478,6 +510,13 @@ h6 {
   color: #ffffff;
   opacity: 0.7;
 }
+.stellarsm {
+  font-weight: bold;
+  text-align: center;
+  font-size: large;
+  text-shadow: 0 0 10px #fff;
+  margin-bottom: 20px;
+}
 #styleSlider {
   display: flex;
   width: 500%;
@@ -571,7 +610,27 @@ h6 {
     font-family: Montserrat;
     font-weight: light;
   }
-
+  h3 {
+    font-weight: lighter;
+    font-size: medium;
+  }
+  h1 {
+    margin-top: 100px;
+    font-size: 20px;
+  }
+  .flip-card-front {
+    width: 250px;
+    height: 290px;
+  }
+  .flip-card-back {
+    width: 250px;
+    height: 290px;
+  }
+  .flip-card-inner {
+    width: 250px;
+    height: 290px;
+    margin: auto;
+  }
   .landingImg {
     margin-top: 100px;
     width: 150px;
@@ -590,6 +649,7 @@ h6 {
     font-size: 10px;
     font-weight: light;
   }
+
   #styleSlider {
     display: flex;
     justify-items: center;
@@ -789,6 +849,7 @@ h6 {
     text-align: center;
     margin: auto;
   }
+
   .contact {
     text-align: center;
   }
@@ -804,6 +865,7 @@ h6 {
     flex-direction: column-reverse;
     align-items: center;
   }
+
   #container {
     display: flex;
     justify-content: center;
