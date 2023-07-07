@@ -83,6 +83,16 @@ p {
   color: #fff;
   font-family: Montserrat;
 }
+.SheCodes {
+  margin: 20px;
+}
+.UXDesign {
+  margin: 20px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+}
 .stellar {
   text-align: center;
   margin: 20px 0px 30px;
@@ -525,7 +535,11 @@ p {
   text-shadow: 0 0 10px #fff;
   margin-bottom: 20px;
 }
-
+.listSkills li:before {
+  content: "\2014";
+  display: inline-block;
+  margin-right: 5px;
+}
 #lastSay {
   text-align: center;
   width: 80%;
