@@ -83,6 +83,15 @@ p {
   color: #fff;
   font-family: Montserrat;
 }
+.lastWords {
+  max-width: 80%;
+  padding: 20px;
+  text-align: center;
+  border-style: ridge;
+  border-color: #586fa7;
+  margin: auto;
+  margin-top: 70px;
+}
 .SheCodes {
   margin: 20px;
 }
@@ -540,6 +549,9 @@ p {
   display: inline-block;
   margin-right: 5px;
 }
+.aboutsmall {
+  display: none;
+}
 #lastSay {
   text-align: center;
   width: 80%;
@@ -749,6 +761,7 @@ p {
   h4 {
     font-size: 15px;
     font-weight: lighter;
+    text-align: center;
   }
   h6 {
     font-weight: lighter;
@@ -757,6 +770,7 @@ p {
   }
   p {
     font-size: 15px;
+    text-align: center;
   }
   .planet-link {
     text-decoration: none;
@@ -824,7 +838,16 @@ p {
   .linkedin {
     padding: 15px;
   }
-
+  .lastWords {
+    min-width: 95%;
+  }
+  .container-intro {
+    display: none;
+  }
+  .aboutsmall {
+    margin-top: 120px;
+    display: block;
+  }
   #styleSlider {
     display: flex;
     justify-items: center;
