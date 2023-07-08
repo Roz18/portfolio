@@ -25,7 +25,7 @@
   <body style="background-image: url(/images/pageArtLG.png)">
     <nav class="navbar navbar-custom fixed-top d-lg-none">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/Pages/Booking.html">Just Booking</a>
+        <a class="navbar-brand" href="/index.html" alt="Home page">Home</a>
         <button
           class="navbar-toggler custom-toggler"
           type="button"
@@ -46,25 +46,45 @@
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
                 <a
+                  alt="Home page"
                   class="nav-link.active"
                   style="color: white"
                   aria-current="page"
+                  href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="/Pages/CodeQuest.html"
+                  alt="Coding Projects"
+                  >Code Quest</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
                   href="/Pages/Booking.html"
+                  alt="UXDesign Projects"
                   >Just Booking</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/index.html">Home</a>
+                <a
+                  class="nav-link"
+                  href="/Pages/works.html"
+                  alt="Portfolio development"
+                  >Whimsical Works</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Pages/CodeQuest.html">Code Quest</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="/Pages/works.html">Whimsical Works</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/Pages/about.html">About</a>
+                <a
+                  class="nav-link"
+                  href="/Pages/about.html"
+                  alt="more information abou rusanne"
+                  >About</a
+                >
               </li>
               <li class="nav-item">
                 <a
@@ -80,25 +100,26 @@
         </div>
       </div>
     </nav>
-
     <ul class="nav d-none d-lg-flex justify-content-center">
       <li class="nav-item">
-        <a class="nav-link" href="/index.html">Home</a>
+        <a class="nav-link active" aria-current="page" href="/index.html"
+          >Home</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/Pages/CodeQuest.html">Code Quest</a>
+        <a class="nav-link" href="/Pages/CodeQuest.html" alt="Coding Projects"
+          >Code Quest</a
+        >
       </li>
       <li class="nav-item">
-        <a
-          class="nav-link active"
-          aria-current="page"
-          href="/Pages/Booking.html"
+        <a class="nav-link" href="/Pages/Booking.html" alt="UXDesign Projects"
           >Just Booking</a
         >
       </li>
+
       <img
         src="/images/smallpp.png"
-        alt="Heading picture"
+        alt="small porfolio picture"
         style="
           padding: 5px 5px 5px;
           width: 60px;
@@ -107,12 +128,18 @@
         "
         class="col-md-6 float-md-end mb-3 ms-md-3"
       />
-
       <li class="nav-item">
-        <a class="nav-link" href="/Pages/works.html">Whimsical Works</a>
+        <a class="nav-link" href="/Pages/works.html" alt="Portfolio development"
+          >Whimsical Works</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/Pages/about.html">About</a>
+        <a
+          class="nav-link"
+          href="/Pages/about.html"
+          alt="more information abou rusanne"
+          >About</a
+        >
       </li>
       <li class="nav-item">
         <a class="nav-link" rel="noopener" target="_blank" href="#contactbox"
@@ -120,6 +147,7 @@
         >
       </li>
     </ul>
+
     <br />
     <br />
     <br />
@@ -147,35 +175,60 @@
           <div class="slide-Planet">
             <div class="card-Planet">
               <h6>
-                <a href="#reasearchlink" class="planet-link">User Reasearch</a>
+                <a
+                  href="#reasearchlink"
+                  class="planet-link"
+                  title="click on planet to skip to User Reasearch section"
+                  >User Reasearch</a
+                >
               </h6>
             </div>
           </div>
           <div class="slide-Planet">
             <div class="card-Planet">
               <h6>
-                <a href="#analysislink" class="planet-link">Analisis</a>
+                <a
+                  href="#analysislink"
+                  class="planet-link"
+                  title="click on planet to skip to analisis section"
+                  >Analisis</a
+                >
               </h6>
             </div>
           </div>
           <div class="slide-Planet">
             <div class="card-Planet">
               <h6>
-                <a href="#designlink" class="planet-link">Design</a>
+                <a
+                  href="#designlink"
+                  class="planet-link"
+                  title="click on planet to skip to design section"
+                  >Design</a
+                >
               </h6>
             </div>
           </div>
           <div class="slide-Planet">
             <div class="card-Planet">
               <h6>
-                <a href="#testinglink" class="planet-link">Testing</a>
+                <a
+                  href="#testinglink"
+                  class="planet-link"
+                  title="click on planet to skip to testing section"
+                  >Testing</a
+                >
               </h6>
             </div>
           </div>
           <div class="slide-Planet">
             <div class="card-Planet">
               <h6>
-                <a href="#handoverlink" class="planet-link">Hand-over</a>
+                <a
+                  href="#handoverlink"
+                  class="planet-link"
+                  title="click on planet to skip to hand-over section"
+                  >Hand-over</a
+                >
               </h6>
             </div>
           </div>
@@ -183,8 +236,8 @@
       </div>
     </div>
     <div class="navigation-book">
-      <button class="preve-button">Bow</button>
-      <button class="nexts-button">Stern</button>
+      <button class="preve-button" title="Previous ">Bow</button>
+      <button class="nexts-button" title="Next ">Stern</button>
     </div>
     <div class="d-none d-sm-none d-md-none d-lg-block">
       <div class="projects">
@@ -299,10 +352,12 @@
               hotel booking experience that exceeds all expectations.
             </p>
           </div>
-          <button id="projectButton" style="margin-right: 10px">
-            projects
+          <button id="projectButton" title=" " style="margin-right: 10px">
+            View Project
           </button>
-          <button id="projectButton" style="margin-left: 10px">projects</button>
+          <button id="projectButton" title="" style="margin-left: 10px">
+            View Project
+          </button>
         </div>
 
         <div class="findings">
@@ -448,8 +503,12 @@
               future of the website, ensuring a user-centered design that truly
               meets the needs and desires of my audience.
             </p>
-            <button id="projectButton" style="margin-left: 10px">
-              and bejond
+            <button
+              id="projectButton"
+              title=" To Affinity and bejond... affinity diagram"
+              style="margin-left: 10px"
+            >
+              View Project
             </button>
           </div>
           <div class="setionProjects">
@@ -484,8 +543,12 @@
               fosters collaboration and aligns stakeholders, setting the stage
               for meaningful discussions and informed decision-making
             </p>
-            <button id="projectButton" style="margin-left: 10px">
-              projects
+            <button
+              id="projectButton"
+              title="customer journey map project"
+              style="margin-left: 10px"
+            >
+              View Project
             </button>
           </div>
         </div>
@@ -532,8 +595,12 @@
               that the final design would meet the needs and expectations of
               users.
             </p>
-            <button id="projectButton" style="margin-left: 10px">
-              projects
+            <button
+              id="projectButton"
+              title="Low fidilty GIF project"
+              style="margin-left: 10px"
+            >
+              View Project
             </button>
           </div>
         </div>
@@ -581,8 +648,12 @@
               their satisfaction and identifying any potential pain points or
               areas for improvement.
             </p>
-            <button id="projectButton" style="margin-left: 10px">
-              projects
+            <button
+              id="projectButton"
+              title=" The Prototype "
+              style="margin-left: 10px"
+            >
+              View Project
             </button>
           </div>
         </div>
@@ -623,8 +694,12 @@
               capturing these nuances, I empower the development team to create
               a product that perfectly aligns with my creative vision.
             </p>
-            <button id="projectButton" style="margin-left: 10px">
-              projects
+            <button
+              id="projectButton"
+              title="The annotation"
+              style="margin-left: 10px"
+            >
+              View project
             </button>
           </div>
         </div>
@@ -809,10 +884,22 @@
               uncovering every nuance of the user journey.
             </p>
           </div>
-          <button id="projectButton" style="margin-right: 10px">
-            projects
+          <button
+            onclick="window.location.href='' "
+            id="projectButton"
+            title=""
+            style="margin-right: 10px"
+          >
+            View Project
           </button>
-          <button id="projectButton" style="margin-left: 10px">projects</button>
+          <button
+            onclick="window.location.href='' "
+            id="projectButton"
+            title=""
+            style="margin-left: 10px"
+          >
+            View Project
+          </button>
         </div>
 
         <div class="Reasearch" id="analysislink">
@@ -851,8 +938,13 @@
               shaping a user-centered design that meets the genuine needs and
               desires of my audience.
             </p>
-            <button id="projectButton" style="margin-left: 10px">
-              and bejond
+            <button
+              onclick="window.location.href='' "
+              title="To affinity and bejond...affinity diagram"
+              id="projectButton"
+              style="margin-left: 10px"
+            >
+              View Project
             </button>
           </div>
           <div class="setionProjects">
@@ -890,8 +982,14 @@
               foundation for meaningful discussions and informed
               decision-making.
             </p>
-            <button id="projectButton" style="margin-left: 10px">
-              projects
+            <button
+              onclick="window.location.href='' "
+              title="Customer
+            Journey Map project"
+              id="projectButton"
+              style="margin-left: 10px"
+            >
+              View Project
             </button>
           </div>
         </div>
@@ -926,8 +1024,13 @@
               ensured that the final design would effectively meet the needs and
               expectations of users
             </p>
-            <button id="projectButton" style="margin-left: 10px">
-              projects
+            <button
+              onclick="window.location.href='' "
+              tabindex="Low-fidelity gif design"
+              id="projectButton"
+              style="margin-left: 10px"
+            >
+              View Project
             </button>
           </div>
         </div>
@@ -967,8 +1070,13 @@
               helping me identify areas for improvement and ensure user
               satisfaction.
             </p>
-            <button id="projectButton" style="margin-left: 10px">
-              projects
+            <button
+              onclick="window.location.href='' "
+              title="prototype project"
+              id="projectButton"
+              style="margin-left: 10px"
+            >
+              View Project
             </button>
           </div>
         </div>
@@ -1004,8 +1112,13 @@
               aligns perfectly with my creative vision.
             </p>
 
-            <button id="projectButton" style="margin-left: 10px">
-              projects
+            <button
+              onclick="window.location.href='' "
+              title=" The annotations"
+              id="projectButton"
+              style="margin-left: 10px"
+            >
+              View Project
             </button>
           </div>
         </div>
@@ -1101,6 +1214,7 @@
               <input
                 class="form-control"
                 type="text"
+                name="name"
                 style="background-color: #0c0f31; color: white"
                 placeholder="Your name"
               />
@@ -1108,6 +1222,7 @@
               <input
                 type="email"
                 class="form-control"
+                name="email"
                 style="background-color: #0c0f31; color: white"
                 id="emailfield"
                 placeholder="name@example.com"
@@ -1118,15 +1233,17 @@
                 class="form-control"
                 style="background-color: #0c0f31; color: white"
                 id="messagefield"
+                name="message"
                 rows="3"
                 placeholder="Your message here"
               ></textarea>
               <br />
               <button
+                title="not active yet but will be soon"
                 id="buttonEmail"
-                type="submit"
+                type="button"
                 class="btn btn-primary"
-                href="#"
+                onclick="sendEmail()"
               >
                 Send
               </button>

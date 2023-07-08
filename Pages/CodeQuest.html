@@ -240,7 +240,7 @@
                       </p>
                       <p>
                         It's time to let your Sims adventures begin.
-                        <em>Veena fredishay</em>
+                        <em alt="Simmish for -Let's play!-">Veena fredishay</em>
                       </p>
                       <a href="">View Sims 4 is Life</a>
                     </div>
@@ -463,7 +463,7 @@
 
             <p>
               It's time to let your Sims adventures begin.
-              <em>Veena fredishay</em>
+              <em alt="Simmish for -Let's play!- ">Veena fredishay</em>
             </p>
             <a href="">View Sims 4 is Life</a>
           </div>
@@ -695,7 +695,7 @@
           <div class="flip-card-front" style="width: 350px; height: 390px">
             <img
               src="/images/weather.png"
-              alt="Avatar"
+              alt="weather application"
               style="width: 350px; height: 390px"
             />
           </div>
@@ -756,7 +756,7 @@
           <div class="flip-card-front" style="width: 350px; height: 340px">
             <img
               src="/images/worldclock.png"
-              alt="Avatar"
+              alt="world clock"
               style="width: 350px; height: 340px"
             />
           </div>
@@ -888,6 +888,7 @@
               <input
                 class="form-control"
                 type="text"
+                name="name"
                 style="background-color: #0c0f31; color: white"
                 placeholder="Your name"
               />
@@ -895,6 +896,7 @@
               <input
                 type="email"
                 class="form-control"
+                name="email"
                 style="background-color: #0c0f31; color: white"
                 id="emailfield"
                 placeholder="name@example.com"
@@ -905,15 +907,17 @@
                 class="form-control"
                 style="background-color: #0c0f31; color: white"
                 id="messagefield"
+                name="message"
                 rows="3"
                 placeholder="Your message here"
               ></textarea>
               <br />
               <button
+                title="Not acive yet but will be soon"
                 id="buttonEmail"
-                type="submit"
+                type="button"
                 class="btn btn-primary"
-                href="#"
+                onclick="sendEmail()"
               >
                 Send
               </button>
