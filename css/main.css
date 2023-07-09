@@ -819,7 +819,10 @@ p {
     padding: 7px;
     font-size: 12px;
   }
-
+  .card-title {
+    display: flex;
+    justify-content: center;
+  }
   .cardcard-description {
     height: 390px;
   }
