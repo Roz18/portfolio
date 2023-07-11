@@ -647,6 +647,7 @@ p {
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
   }
   h4 {
     color: white;
